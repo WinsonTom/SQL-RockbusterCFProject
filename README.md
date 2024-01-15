@@ -50,11 +50,27 @@ Q5. Do sales figures vary between geographic regions?
 
 (3.7)
 
--
+-JOIN function: Understanding when to use INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
 
+(3.8)
 
+-Subqueries: Use of Inner Statements to retrieve additional information on the Outer Statement.
 
+(3.9)
 
+-CTE: Rewriting queries into common table expression format.
 
+(3.10) Final Project
 
+-Data Dictionary: ERD, Legends, Data Types, Links To/From, Foreign Keys.
+
+-Idenitfying Missing Values, Duplicates, and Non-Uniform Data.
+
+-Retrieving top 10 Countries by Customer #s.
+
+-Finding Top 10 Cities within the Top 10 Countries.
+
+-Isolating the Top 5 customers within the Top 5 Cities.
+
+-PPT Presentation for answers to business questions, final takeaways, and reccomendations.
 
