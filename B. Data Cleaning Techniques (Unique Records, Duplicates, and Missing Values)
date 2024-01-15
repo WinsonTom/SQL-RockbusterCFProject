@@ -1,0 +1,43 @@
+--As Data Analyst we are usually not allowed to make edits, however this is to VIEW and identify where edits may be needed
+
+--Viewing ONLY UNIQUE records from Film Table
+
+SELECT DISTINCT film_id,
+       title,
+       description,
+       release_year,
+       language_id,
+       rental_duration,
+       rental_rate,
+       length,
+       replacement_cost,
+       rating,
+       last_update,
+       special_features,
+       fulltext
+FROM film
+
+--Viewing any Duplicate data. Data with a count greater than 1. If its greater than one, then it is a duplicate.
+
+SELECT film_id , 
+title, 
+description, 
+release_year, 
+language_id, 
+rental_duration, 
+rental_rate, 
+length, 
+replacement_cost, 
+rating, 
+last_update, 
+special_features, 
+fulltext
+HAVING COUNT(*) > 1
+
+--Identifying Missing values "NULL Data:
+
+SELECT *
+FROM film
+WHERE fulltext
+IS NULL
+
