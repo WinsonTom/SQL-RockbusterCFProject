@@ -28,13 +28,30 @@ Q5. Do sales figures vary between geographic regions?
 
 (3.4)
 
-- SELECT DISTINCT function: Selecting only specific data.
+-SELECT DISTINCT function: Selecting only specific data.
 
-- ORDER BY function: Organizing data in Ascending, Descending values.
+-ORDER BY function: Organizing data in Ascending, Descending values.
 
-- AVG, MIN, MAX function: Finding the average, minimum, and maximums of categories.
+-AVG, MIN, MAX function: Finding the average, minimum, and maximums of categories.
 
 (3.5)
+
+-WHERE function: Filtering for data WHERE column or value is LIKE , = to , between, < than, > than.
+
+-Aggregating data: COUNT, AVERAGE, MAX, MIN all retrieved in one table.
+
+-GROUP BY function: Organizing the view of outputs by ___.
+
+(3.6)
+
+-Cleaning data on SQL: Identifying non-uniform data, duplicate data, missing values.
+
+-Naming output column titles to custom name, rather than default name.
+
+(3.7)
+
+-
+
 
 
 
